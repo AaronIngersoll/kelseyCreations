@@ -9,16 +9,25 @@ export default class FilmsNav extends Component {
     }
     render() {
         return(
-            
-                <div className="films-link-wrapper">
-                <div className="vidLink">
-                <NavLink to="/kennedy_josh" activeClassName="nav-link-active"> <img width="15%" height="10%" src="../assets/images/bgImage.jpg" alt="Kennedy and Josh"/> </NavLink>
-                </div>
-                <div className="vidLink">
-                <NavLink to="/hannah_josh" activeClassName="nav-link-active"> <img width="15%" height="10%" src="../assets/images/bgImage.jpg" alt="Hannah and Josh"/> </NavLink>
+        
+            <div className="films-link-wrapper">
+              <div className="vid-links">
+
+                <div className="vidLink" style={ { backgroundImage: `url("../assets/images/bgImage.jpg")` } }>
+                    <NavLink to="/kennedy_josh" activeClassName="nav-link-active"> 
+                    <h3 className="link-header">Kennedy and Josh</h3>
+                    <p className="link-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </NavLink>
                 </div>
                 
+                <div className="vidLink" style={ { backgroundImage: `url("../assets/images/bgImage.jpg")` } }>
+                    <NavLink to="/hannah_josh" activeClassName="nav-link-active"> 
+                    <h3 className="link-header">Hannah and Josh</h3>
+                    <p className="link-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </NavLink>
                 </div>
+               </div>
+            </div>
             
         )
     }

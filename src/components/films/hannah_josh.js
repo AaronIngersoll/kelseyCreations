@@ -6,7 +6,7 @@ export default function() {
         <div className="square">
             
             <div className="img-wrapper">
-                <iframe width="100%" height="500px" src="https://www.youtube.com/watch?v=LjwPO4NHF9o&t=8s" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                <iframe width="100%" height="500px" src="https://www.youtube.com/watch?v=LjwPO4NHF9o{%26}t=8s" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
             </div>
 
             <div className="square-text-wrapper">

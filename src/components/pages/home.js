@@ -5,9 +5,9 @@ export default function() {
         <div className="homePage">
             <div className="videoContainer">
                 <video playsInline autoPlay muted loop id="bgvid" width="100%">
-                    <source src="../assets/videos/birth.mp4" type="video/mp4"/>
+                    <source src="../assets/videos/reel.mp4" type="video/mp4"/>
                 </video>
-                
+  
             </div>
         <div className="homeLogo">
         <img id="logoHome"src="../assets/logo/good-logo.png" alt="logo"/>

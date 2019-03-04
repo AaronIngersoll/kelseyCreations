@@ -1,10 +1,49 @@
 .films-link-wrapper {
+    display: flex;
+    justify-content: center;
+
+.vid-links {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+    a {text-decoration: none;}
 
     .vidLink{
-        position: static;
+        // position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+        height: 150px;
+        width: 300px;
         
     }
 
+    .link-header,
+    .link-description {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+        transition: 1s ease-in-out;
+        color: transparent;
+    } 
+    
+
+    .link-header:hover,
+    .link-description:hover
+     {
+        color: white;
+        font-weight: 400;
+     }
 }
+}
+
+
+
+
+
