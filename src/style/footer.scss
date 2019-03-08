@@ -2,84 +2,44 @@
 .footer {
     background-color: $white;
     color: #cbcbcb;
-    font-family: "Ubuntu Condensed", sans-serif;
+    font-family: $bodyFont;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 400px;
     margin-top: -4px;
+    
 }
 
 
 .footer > .logo-footer img{
-    width: 180px;
-    height: 100%;
+    width: 200px;
+    height: 200px;
     /* filter: brightness(50%); */
-    opacity: 0.5;
+    // opacity: 0.5;
+    margin-bottom: -10px;
 }
 
-.footer > .footer-phone-hours span {
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 1em;
-    letter-spacing: 2px;
-}
-
-.footer > .footer-phone-hours > .hours {
-    font-size: 0.8em;
-    color: #cea135;
-}
-
-///links-wrapper
-
-.footer > .links-wrapper {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 400px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.links-wrapper > .nav-link { 
-    width: 70px;
-    text-align: center;
-}
-
-.links-wrapper > .nav-link a {
-    font-family: "Ubuntu Condensed", sans-serif;
-    color: #cbcbcb;
-    text-decoration: none;
-    transition: .5s ease;
-}
-
-.links-wrapper > .nav-link a:hover{
-    color: #cea135;
-    letter-spacing: 2px;
-
-}
-
-.footer > .social-media-icons-wrapper {
-    margin-top: 40px;
-    margin-bottom: 40px;
+.social-media-icons-wrapper {
+    margin-top: 5px;
+    margin-bottom: 5px;
     width: 300px;
     display: flex;
     justify-content: space-around;
-}
 
-.footer > .social-media-icons-wrapper a {
-    font-size: 1.5em;
-    color: #cbcbcb;
-    transition: 0.5s;
-}
-
-.footer > .social-media-icons-wrapper a:hover {
-    color: #cea135;
+    a{
+        font-size: 3em;
+        color: $dark;
+        transition: 1s;
+        &:hover {
+            color: $pink;
+        }
+    }
 }
 
 .footer > .copyright-wrapper {
+    margin-top: 1px;
     margin-bottom: 42px;
     font-size: 0.7em;
     color: #858585;

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-
-import NavigationContainer from "../nav-bar/nav-bar"
+import { NavLink } from "react-router-dom";
 
 export default class Footer extends Component {
     constructor(props) {
@@ -9,34 +8,40 @@ export default class Footer extends Component {
     render() {
     return(
         <div className="footer">
-                <div className="logo-footer">
-                    <img src="../assets/logo/good-logo.png" alt="Logo"/>
-                </div>
-                    
-                <div className= "footer-phone">
-                    <span className="phone">
-                        555-555-555
-                    </span>
-            
-                    <span className="hours">
-                        10 AM - MIDNIGHT
-                    </span>
-                </div>
-            <div className="links-wrapper"><NavigationContainer /></div>
+            <div className="logo-footer">
+                <img src="../assets/logo/good-logo.png" alt="Logo"/>
+            </div>
+            <div className="links-wrapper">
+                <div className="nav-wrapper">
 
-                <div className="social-media-icons-wrapper">
-                    <a href="#"></a>
-                        <i className="fab fa-instagram"></i>
-        
-                    <a href="#"></a>
-                        <i className="fab fa-facebook-square"></i>
-        
-                    <a href="#"></a>
-                        <i className="fab fa-vimeo-square"></i>
+                        <div className="nav-link-wrapper">
+                        <NavLink to="/" activeClassName="nav-link-active">Home</NavLink>
+                        </div>
+                        <div className="nav-link-wrapper">
+                        <NavLink to="/bio" activeClassName="nav-link-active">Bio</NavLink>
+                        </div>
+                        <div className="nav-link-wrapper">
+                        <NavLink to="/films" activeClassName="nav-link-active">Films</NavLink>
+                        </div>
+                        <div className="nav-link-wrapper">
+                        <NavLink to="/contact" activeClassName="nav-link-active">Contact</NavLink>
+                        </div>
+
                 </div>
-                <div className="copyright-wrapper">
-                    &copy; 2019 Ingy &#124; all rights reserved
-                </div>
+            </div>
+
+            <div className="social-media-icons-wrapper">
+                <a href="https://www.instagram.com/kelseycreations/">
+                    <i className="fab fa-instagram"></i>
+                </a>
+    
+                <a href="https://vimeo.com/kelseycreations">
+                    <i className="fab fa-vimeo-square"></i>
+                </a>
+            </div>
+            <div className="copyright-wrapper">
+                &copy; 2019 KelseyCreations &#124; all rights reserved
+            </div>
         </div>
     )};  
 }

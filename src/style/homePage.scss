@@ -1,33 +1,58 @@
 .homeLogo {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    // margin-top: -250px;
+    margin-bottom: 300px;
+    opacity: .85;
+
 
 }
 
 .missionStatement {
     height: 250px;
-    background-color: #000000;
+    background-color: $dark;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
     padding: 30px 300px; 
+    font-family: $headingFont;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
 }
 
 .header {
     display: flex;
     justify-items: center;
-    color: $white;
+    color: $gold;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2.5px solid $black;
+    border-radius: 10px;
+    transition: 1s; 
+
+    .header:hover{
+        border-bottom: 5px solid #11122b;
+    }
 }
 
 .statement {
-    color: $yellow;
     display: flex;
     padding: 10px;
     margin: 10px;
     text-align: center;
-    font-size: .8em
+    font-size: .8em;
+    font-family: $bodyFont;
+    color: $white;
 
 }
+
+.contact-me {
+    color: $pink;
+    background-color: $black;
+    border-color: $pink;
+}
+
+
 
 

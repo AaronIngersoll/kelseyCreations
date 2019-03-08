@@ -21,7 +21,7 @@ export default function() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, dolores?
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
-                <button>leggggooooo</button>
+                <button className="contact-me">Contact Me</button>
         </div>
 
         </div>

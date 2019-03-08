@@ -6,12 +6,12 @@ export default function() {
         <div className="square">
             
             <div className="img-wrapper">
-                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/LjwPO4NHF9o" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/5eVk6tmwfIU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
             </div>
 
             <div className="square-text-wrapper">
                 <a href="#spicy" name="spicy" className="anchor-link">
-                    <h1>Hannah and Josh</h1>
+                    <h1>Hermana Ohlsen</h1>
                 </a>
 
                 <ul>
@@ -25,5 +25,4 @@ export default function() {
         </div>
 
     )}
-
 

@@ -7,6 +7,7 @@ import Contact from "./pages/contact";
 import Films from "./pages/films";
 import KennedyJosh from "./films/kennedy_josh";
 import HannahJosh from "./films/hannah_josh";
+import Hermana_Ohlsen from "./films/hermana_Ohlsen";
 import Footer from "./footer/footer";
 import NavigationContainer from "./nav-bar/nav-bar";
 
@@ -26,9 +27,8 @@ export default class App extends Component {
               <Route path="/contact" component={Contact} />
               <Route path="/kennedy_josh" component={KennedyJosh} />
               <Route path="/hannah_josh" component={HannahJosh} />
+              <Route path="/hermana_Ohlsen" component={Hermana_Ohlsen} />
 
-              
-              
             </Switch>
             <Footer />
 
