@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function() {
+export default function(props) {
     return(
         <div className="square">
             
@@ -11,7 +11,7 @@ export default function() {
 
             <div className="square-text-wrapper">
                 <a href="#spicy" name="spicy" className="anchor-link">
-                    <h1>Hannah and Josh</h1>
+                    <h1>{props.match.params.slug}</h1>
                 </a>
 
                 <ul>
