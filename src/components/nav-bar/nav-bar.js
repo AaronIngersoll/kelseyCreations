@@ -22,6 +22,7 @@ export default class NavigationContainer extends Component {
                         <div className="nav-link-wrapper">
                         <NavLink to="/contact" activeClassName="nav-link-active">Contact</NavLink>
                         </div>
+
                     </div>
                     <div className="right-side">
                     Kelsey Creations
