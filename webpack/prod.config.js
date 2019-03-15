@@ -31,6 +31,7 @@ module.exports = webpackMerge(webpackCommon, {
     publicPath: '/'
   },
 
+
   module: {
 
     rules: [

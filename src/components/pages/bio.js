@@ -1,14 +1,11 @@
 import React from 'react';
 
 
-
-
 export default function() {
     return(
-        <div className="bioPage">
-            Bio
-            
-            </div>
-    );
+    <div className="about">
+          bio
+    </div>
+    )
 }
 
