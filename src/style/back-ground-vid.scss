@@ -1,14 +1,12 @@
-.videoContainer{ 
-    height: 190px;
-    width: 100vw;
-    padding-bottom: 50px;
-    padding-top: 50px; 
+.videoContainer {
+  height: 700px;
+  width: 100vw;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
-.videoContainer video{ 
-    min-width: 100%;
-    position: fixed;
-    top:0;
-    z-index: -999;
-
+.videoContainer video {
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -999;
 }
-

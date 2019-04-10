@@ -1,58 +1,106 @@
-.homeLogo {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    // margin-top: -250px;
-    margin-bottom: 300px;
-    opacity: .85;
-
-
-}
+// @import url(https://fonts.googleapis.com/css?family=Righteous);
 
 .missionStatement {
-    height: 250px;
-    background-color: $dark;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 300px; 
-    font-family: $headingFont;
-    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
-}
+  height: 250px;
+  background-color: $dark;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 300px;
+  font-family: $headingFont;
+  box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
 
-.header {
-    display: flex;
-    justify-items: center;
-    color: $gold;
-    padding: 10px;
+  body {
     text-align: center;
-    border-bottom: 2.5px solid $black;
-    border-radius: 10px;
-    transition: 1s; 
-
-    .header:hover{
-        border-bottom: 5px solid #11122b;
-    }
+  }
+  body:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    height: 100%;
+  }
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.header {
+  display: inline-block;
+  color: $gold;
+  font-family: $headingFont;
+  font-size: 12em;
 }
 
 .statement {
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    font-size: .8em;
-    font-family: $bodyFont;
-    color: $white;
-
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 0.8em;
+  font-family: $bodyFont;
+  color: $white;
 }
 
 .contact-me {
-    color: $pink;
-    background-color: $black;
-    border-color: $pink;
+  text-decoration: none;
+  border: none;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 2vw;
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, $gold, $white, $pink, $dark);
+  animation: 0.8s shake infinite alternate;
+
+  &:hover {
+    color: black;
+  }
 }
 
+@keyframes shad-anim {
+  0% {
+    background-position: 0 0;
+  }
+  0% {
+    background-position: 100% -100%;
+  }
+}
 
-
-
+@keyframes shake {
+  0% {
+    transform: skewX(-15deg);
+  }
+  5% {
+    transform: skewX(15deg);
+  }
+  10% {
+    transform: skewX(-15deg);
+  }
+  15% {
+    transform: skewX(15deg);
+  }
+  20% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
