@@ -54,7 +54,11 @@ export default class VidGrid extends Component {
       <div className="root">
         <div className="gridList">
           <GridList>
-            <GridListTile key="Subheader" cols={2} style={{ height: "auto" }}>
+            <GridListTile
+              key="Subheader"
+              cols={2}
+              style={{ height: "auto", alignContent: "center" }}
+            >
               <ListSubheader component="div">VIDEOS</ListSubheader>
             </GridListTile>
             {console.log(this.state.videos)}

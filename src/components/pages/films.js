@@ -1,14 +1,23 @@
-import React from 'react';
-
+import React from "react";
 
 import VidGrid from "../films/filmsNav";
 
-
 export default function() {
-    return(
+  return (
     <div className="filmsPage">
-        <VidGrid />
-        
+      <div className="skewed-header">
+        <div className="header-bg" />
+
+        <div className="skewed-header-wrapper">
+          <div className="skewed-header-content">
+            <div className="heading-wrapper">
+              <h1>Gallery</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <VidGrid />
     </div>
-    )
+  );
 }

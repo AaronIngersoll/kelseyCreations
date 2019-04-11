@@ -1,13 +1,14 @@
-.page-container {
+.contact-grid-wrapper {
   width: 1000px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 100px;
+  font-family: $headingFont;
 }
 
 .company-metadata-sidebar-wrapper > .logo img {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   padding-left: 100px;
 }
 
@@ -16,17 +17,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
+  // margin-top: 20px;
   margin-bottom: 20px;
   text-align: right;
-  font-size: 1.25em;
-  padding-left: 100px;
+  font-size: 1.1em;
   color: $dark;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .contact-me-grid-wrapper {
   display: grid;
   grid-template-columns: 1fr;
   padding: 42px;
-  grid-gap: 21px;
+  padding-bottom: 100px;
+  grid-gap: 100px;
 }
