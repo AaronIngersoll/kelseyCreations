@@ -7,7 +7,7 @@ export default function() {
       <div className="videoContainer">
         <video playsInline autoPlay muted loop id="bgvid" width="100%">
           <source
-            src="../assets/videos/KelseyCreationsReel.mp4"
+            src="../assets/videos/kelseyCreationsReel.mp4"
             type="video/mp4"
           />
         </video>
