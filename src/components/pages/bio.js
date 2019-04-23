@@ -4,12 +4,7 @@ export default function() {
   return (
     <div className="bioPage">
       <div className="skewed-header">
-        <div
-          className="header-bg"
-          style={{
-            backgroundImage: 'url("../../static/assets/images/mtns.jpg")'
-          }}
-        />
+        <div className="header-bg1" />
 
         <div className="skewed-header-wrapper">
           <div className="skewed-header-content">
