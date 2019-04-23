@@ -4,7 +4,7 @@ export default function() {
   return (
     <div className="bioPage">
       <div className="skewed-header">
-        <div className="header-bg" />
+        <div className="header-bg1" />
 
         <div className="skewed-header-wrapper">
           <div className="skewed-header-content">

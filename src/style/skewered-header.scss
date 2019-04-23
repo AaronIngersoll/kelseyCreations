@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-.skewed-header > .header-bg {
+.skewed-header > .header-bg1 {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -22,6 +22,39 @@
   transform-origin: top left;
   filter: brightness(50%);
   background-image: url("../../static/assets/images/mtns.jpg");
+  background-position: top;
+}
+.skewed-header > .header-bg2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+  filter: brightness(50%);
+  background-image: url("../../static/assets/images/wind.jpg");
+  background-position: center;
+}
+.skewed-header > .header-bg3 {
+  position: absolute;
+  top: 00px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+  filter: brightness(50%);
+  background-image: url("../../static/assets/images/tallMTN.jpg");
+  background-position: center;
 }
 
 .skewed-header > .skewed-header-wrapper {
