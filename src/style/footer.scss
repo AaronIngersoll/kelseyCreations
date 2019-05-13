@@ -14,6 +14,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
   height: 400px;
   margin-top: -4px;
   box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
