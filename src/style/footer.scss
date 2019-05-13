@@ -41,6 +41,7 @@
     text-decoration: none;
     font-size: 3em;
     &:hover {
+      color: $dark;
       -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
       -moz-animation: neon2 1.5s ease-in-out infinite alternate;
       animation: neon2 1.5s ease-in-out infinite alternate;
