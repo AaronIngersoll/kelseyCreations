@@ -46,13 +46,13 @@ export default function() {
               </Form.Group>
               <Form.Group controlId="formBasic">
                 <Form.Label>Last Name</Form.Label>
-                <Form.Control type="text" placeholder="LastName" />
+                <Form.Control type="text" placeholder="Last Name" />
               </Form.Group>
             </div>
             <div className="two-column">
               <Form.Group controlId="formBasic">
                 <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
+                <Form.Control type="email" placeholder="Enter Email" />
               </Form.Group>
 
               <Form.Group controlId="formBasic">
