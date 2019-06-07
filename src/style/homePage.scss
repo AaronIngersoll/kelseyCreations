@@ -23,6 +23,7 @@
     height: 100%;
   }
 }
+
 *,
 *:before,
 *:after {
@@ -74,6 +75,29 @@
 
   &:hover {
     color: black;
+  }
+}
+@media only screen and (max-width: 615px) {
+  .missionStatement {
+    flex-flow: row wrap;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://kelseycreationsimages.s3-us-west-2.amazonaws.com/light.jpg");
+
+    height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+  }
+  .statement {
+    color: $white;
+    text-shadow: 3px 3px 15px $black;
+    font-size: 4vw;
+  }
+  .contact-me {
+    font-size: 5vw;
   }
 }
 

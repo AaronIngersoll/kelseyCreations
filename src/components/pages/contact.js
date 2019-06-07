@@ -18,23 +18,24 @@ export default function() {
 
       <div className="contact-grid-wrapper">
         <div className="contact-info-grid-wrapper">
-          <div className="company-metadata-sidebar-wrapper">
-            <div className="logo">
-              <img src="../assets/logo/good-logo.png" alt="Logo" />
-            </div>
+          <div className="logo">
+            <img
+              src="https://kelseycreationsimages.s3-us-west-2.amazonaws.com/good-logo.png"
+              alt="Logo"
+            />
+          </div>
 
-            <div className="company-details-wrapper">
-              <i className="fas fa-map-marker-alt" />
-              <div>Provo, Utah</div>
-            </div>
-            <div className="company-details-wrapper">
-              <i className="fas fa-phone-volume" />
-              <div>480.495.5738</div>
-            </div>
-            <div className="company-details-wrapper">
-              <i className="fas fa-envelope" />
-              <div>kelseyingy@gmail.com</div>
-            </div>
+          <div className="company-details-wrapper">
+            <i className="fas fa-map-marker-alt" />
+            <div>Provo, Utah</div>
+          </div>
+          <div className="company-details-wrapper">
+            <i className="fas fa-phone-volume" />
+            <div>480.495.5738</div>
+          </div>
+          <div className="company-details-wrapper">
+            <i className="fas fa-envelope" />
+            <div>kelseyingy@gmail.com</div>
           </div>
         </div>
         <div className="contact-me-grid-wrapper">

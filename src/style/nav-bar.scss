@@ -27,10 +27,32 @@
       height: 125px;
       width: 125px;
     }
+  }
+}
 
-    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-    animation: neon1 1.5s ease-in-out infinite alternate;
+@media (max-width: 615px) {
+  .nav-wrapper {
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: none;
+    box-shadow: inset 0px -10px 79px -8px rgba(0, 0, 0, 0.58);
+  }
+  .right-side {
+    #logoHome {
+      order: 1;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .left-side {
+    order: 2;
+    flex-direction: column;
+
+    display: inline;
+    text-align: center;
   }
 }
 

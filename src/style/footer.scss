@@ -58,6 +58,29 @@
   font-size: 0.7em;
   color: #858585;
 }
+@media (max-width: 615px) {
+  .footer {
+    height: auto;
+    margin: 0;
+    width: 100%;
+    .logo-footer img {
+      margin-bottom: 0;
+    }
+    .social-media-icons-wrapper {
+      flex-direction: column;
+      height: 100%;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+    }
+    .copyright-wrapper {
+      width: 100%;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+    }
+  }
+}
 
 @-webkit-keyframes neon2 {
   from {

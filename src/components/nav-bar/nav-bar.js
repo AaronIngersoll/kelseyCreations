@@ -31,7 +31,11 @@ export default class NavigationContainer extends Component {
           </div>
         </div>
         <div className="right-side">
-          <img id="logoHome" src="../assets/logo/good-logo.png" alt="logo" />
+          <img
+            id="logoHome"
+            src="https://kelseycreationsimages.s3-us-west-2.amazonaws.com/good-logo.png"
+            alt="logo"
+          />
         </div>
       </div>
     );

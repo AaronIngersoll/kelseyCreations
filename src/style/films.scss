@@ -41,3 +41,19 @@
     }
   }
 }
+@media (max-width: 615px) {
+  .vid-links {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .gridList {
+    width: 100vw;
+    height: auto;
+  }
+}

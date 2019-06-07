@@ -9,10 +9,13 @@ export default class Footer extends Component {
     return (
       <div className="footer">
         <div className="logo-footer">
-          <img src="../assets/logo/good-logo.png" alt="Logo" />
+          <img
+            src="https://kelseycreationsimages.s3-us-west-2.amazonaws.com/good-logo.png"
+            alt="Logo"
+          />
         </div>
         <div className="links-wrapper">
-          <div className="nav-wrapper">
+          <div className="nav-wrapper" style={{ boxShadow: "none" }}>
             <div className="nav-link-wrapper">
               <NavLink to="/" activeClassName="nav-link-active">
                 Home
