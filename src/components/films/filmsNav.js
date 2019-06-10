@@ -18,8 +18,11 @@ export default class VidGrid extends Component {
 
   componentDidMount() {
     var that = this;
-    var API_key = "AIzaSyCSwNci0V2Nze4POGLpIQCtIxUyD34i8qs";
-    var channelID = "UCoDRD6ug-7jVrtn486E4BQw";
+    // var API_key = "AIzaSyCSwNci0V2Nze4POGLpIQCtIxUyD34i8qs";
+    var API_key = process.env.API_KEY;
+    // var channelID = "UCoDRD6ug-7jVrtn486E4BQw";
+    var channelID = process.env.CHANNEL_ID;
+
     var maxResults = 20;
     var url =
       "https://www.googleapis.com/youtube/v3/search?key=" +
@@ -28,6 +31,7 @@ export default class VidGrid extends Component {
       channelID +
       "&part=snippet,id&order=date&maxResults=" +
       maxResults;
+    console.log(url);
 
     fetch(url)
       .then(function(response) {
