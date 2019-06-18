@@ -18,8 +18,8 @@ export default class VidGrid extends Component {
 
   componentDidMount() {
     var that = this;
-    var API_KEY = process.env.API_KEY;
-    var CHANNEL_ID = process.env.CHANNEL_ID;
+    var API_KEY = process.env.REACT_APP_API_KEY;
+    var CHANNEL_ID = process.env.REACT_APP_CHANNEL_ID;
 
     var maxResults = 20;
     var url =
