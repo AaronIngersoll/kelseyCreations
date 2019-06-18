@@ -18,15 +18,12 @@ export default class VidGrid extends Component {
 
   componentDidMount() {
     var that = this;
-    var API_KEY = process.env.REACT_APP_API_KEY;
-    var CHANNEL_ID = process.env.REACT_APP_CHANNEL_ID;
-
-    var maxResults = 20;
+    var maxResults = 30;
     var url =
       "https://www.googleapis.com/youtube/v3/search?key=" +
-      API_KEY +
+      process.env.REACT_APP_API_KEY +
       "&channelId=" +
-      CHANNEL_ID +
+      process.env.REACT_APP_CHANNEL_ID +
       "&part=snippet,id&order=date&maxResults=" +
       maxResults;
 
