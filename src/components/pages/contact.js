@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Button } from "react-bootstrap";
+// import { Form, Button } from "react-bootstrap";
 
 export default function() {
   return (
@@ -24,22 +24,37 @@ export default function() {
               alt="Logo"
             />
           </div>
-
-          <div className="company-details-wrapper">
-            <i className="fas fa-map-marker-alt" />
-            <div>Provo, Utah</div>
-          </div>
-          <div className="company-details-wrapper">
-            <i className="fas fa-phone-volume" />
-            <div>480.495.5738</div>
-          </div>
-          <div className="company-details-wrapper">
-            <i className="fas fa-envelope" />
-            <div>kelseyingy@gmail.com</div>
-          </div>
         </div>
-        <div className="contact-me-grid-wrapper">
-          <Form>
+        <div>
+          <div className="contact-me-grid-wrapper">
+            <div className="company-details-wrapper">
+              <div>
+                <i className="fas fa-map-marker-alt" /> Provo, Utah
+              </div>
+            </div>
+            <div className="company-details-wrapper">
+              <div>
+                <i className="fas fa-phone-volume" /> 480.495.5738
+              </div>
+            </div>
+            <div className="inquiries">
+              {" "}
+              <i className="fas fa-envelope" /> Email me here:{" "}
+            </div>
+            <form
+              method="post"
+              action="mailto:aingy205@gmail.com.com?subject=fromKelseyCreations.com"
+            >
+              <input
+                className="submitBTN"
+                type="submit"
+                value="Email &#xf1d8;"
+              />
+            </form>
+          </div>
+          {/* <Form
+  
+          >
             <div className="two-column">
               <Form.Group controlId="formBasic">
                 <Form.Label>First Name</Form.Label>
@@ -65,10 +80,9 @@ export default function() {
               <Form.Label>Drop Me A Line </Form.Label>
               <Form.Control as="textarea" rows="3" />
             </Form.Group>
-            <Button variant="primary" type="submit">
-              Submit
-            </Button>
-          </Form>
+            <Button variant="primary" type="submit"  />
+            Email Here
+          </Form> */}
         </div>
       </div>
     </div>

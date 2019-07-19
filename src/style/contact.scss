@@ -8,34 +8,38 @@
   padding-left: 100px;
 }
 
-.contact-info-grid-wrapper {
-  margin-top: -75px;
-  text-shadow: 1px 1px 2px $black;
-  font-weight: 900;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 1.1em;
-  color: $gold;
-  padding-left: 100px;
-  padding-right: 100px;
-}
+// .contact-info-grid-wrapper {
+//   margin-top: -75px;
+//   text-shadow: 1px 1px 2px $black;
+//   font-weight: 900;
+//   display: flex;
+//   align-items: center;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   margin-bottom: 20px;
+//   text-align: center;
+//   font-size: 1.1em;
+//   color: $gold;
+//   padding-left: 100px;
+//   padding-right: 100px;
+// }
 
-.contact-info-grid-wrapper > .logo img {
-  width: 30vw;
-  height: auto;
-  margin-bottom: -50px;
-  padding-left: 100px;
-  filter: brightness(175%);
-}
+// .contact-info-grid-wrapper > .logo img {
+//   width: 30vw;
+//   height: auto;
+//   margin-bottom: -50px;
+//   padding-left: 100px;
+//   filter: brightness(175%);
+// }
 
 .contact-me-grid-wrapper {
   padding: 42px;
   grid-gap: 100px;
   color: $gold;
+  width: 80vw;
+  height: auto;
+  font-size: 5rem;
+  text-shadow: 1px 1px $black;
 }
 
 @media (max-width: 615px) {
@@ -49,34 +53,47 @@
     width: 100vw;
     margin-top: -500px;
   }
-  .contact-info-grid-wrapper {
-    order: 1;
-    margin: 0;
-    padding: 0;
-    display: inline;
-    .logo img {
-      padding: 0;
-      width: 70vw;
-      margin: 0;
-      filter: brightness(100%);
-    }
-  }
-  .contact-me-grid-wrapper {
-    order: 2;
-    flex-direction: column;
-    padding: 0;
-    grid-gap: 0;
-    display: inline;
-    text-align: center;
-    grid-gap: 0;
-    margin: 0;
+  //   .contact-info-grid-wrapper {
+  //     order: 1;
+  //     margin: 0;
+  //     padding: 0;
+  //     display: inline;
+  //     .logo img {
+  //       padding: 0;
+  //       width: 70vw;
+  //       margin: 0;
+  //       filter: brightness(100%);
+  //     }
+  //   }
+  //   .contact-me-grid-wrapper {
+  //     order: 2;
+  //     flex-direction: column;
+  //     padding: 0;
+  //     grid-gap: 0;
+  //     display: inline;
+  //     text-align: center;
+  //     grid-gap: 0;
+  //     margin: 0;
 
-    .two-column {
-      width: 80vw;
-      height: auto;
+  //     // .two-column {
+  //     //   width: 80vw;
+  //     //   height: auto;
 
-      display: inline;
-      text-align: center;
-    }
-  }
+  //     //   display: inline;
+  //     //   text-align: center;
+  //     // }
+  //   }
+}
+
+.submitBTN {
+  font-family: "Font Awesome 5 Free";
+  background-color: $dark;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid $black;
 }
