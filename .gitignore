@@ -2,3 +2,4 @@ node_modules/
 filmsNav.js
 amplify/
 
+.env
