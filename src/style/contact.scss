@@ -46,42 +46,49 @@
   .contact-grid-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+    align-items: left;
+    align-content: left;
+    justify-content: left;
     background: none;
     width: 100vw;
-    margin-top: -500px;
+    height: auto;
+    margin-top: -300px;
+    padding-left: 50px;
   }
-  //   .contact-info-grid-wrapper {
-  //     order: 1;
-  //     margin: 0;
-  //     padding: 0;
-  //     display: inline;
-  //     .logo img {
-  //       padding: 0;
-  //       width: 70vw;
-  //       margin: 0;
-  //       filter: brightness(100%);
-  //     }
-  //   }
-  //   .contact-me-grid-wrapper {
-  //     order: 2;
-  //     flex-direction: column;
-  //     padding: 0;
-  //     grid-gap: 0;
-  //     display: inline;
-  //     text-align: center;
-  //     grid-gap: 0;
-  //     margin: 0;
+  .contact-info-grid-wrapper {
+    order: 2;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    .logo img {
+      padding-left: 50px;
+      width: 70vw;
+      margin: 0;
+      filter: brightness(100%);
+    }
+  }
+  .contact-me-grid-wrapper {
+    order: 1;
+    flex-direction: column;
+    padding: 0;
+    grid-gap: 0;
+    display: inline;
+    text-align: center;
+    grid-gap: 0;
+    margin: 0;
+    padding: 42px;
+    grid-gap: 100px;
+    color: $gold;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px $black;
 
-  //     // .two-column {
-  //     //   width: 80vw;
-  //     //   height: auto;
+    //     // .two-column {
+    //     //   width: 80vw;
+    //     //   height: auto;
 
-  //     //   display: inline;
-  //     //   text-align: center;
-  //     // }
+    //     //   display: inline;
+    //     //   text-align: center;
+  }
   //   }
 }
 

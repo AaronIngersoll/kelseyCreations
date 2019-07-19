@@ -32,6 +32,7 @@ export default function() {
                 <i className="fas fa-map-marker-alt" /> Provo, Utah
               </div>
             </div>
+
             <div className="company-details-wrapper">
               <div>
                 <i className="fas fa-phone-volume" /> 480.495.5738
