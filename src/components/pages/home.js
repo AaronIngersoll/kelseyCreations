@@ -26,7 +26,7 @@ export default class Home extends Component {
             </p>
           </div>
           <Link to="/contact" className="contact-me">
-            Schedule Me!
+            Contact Me
           </Link>
         </div>
       </div>

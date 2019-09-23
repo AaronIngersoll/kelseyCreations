@@ -13,11 +13,14 @@
 }
 @media only screen and (max-width: 1025px) {
   .videoContainer {
-    height: 0;
-    padding: 0;
-    visibility: hidden;
+    height: auto;
+    width: 100vw;
+    margin-top: -50px;
+    margin-bottom: -60px;
+
+    // visibility: hidden;
   }
   .videoContainer video {
-    visibility: hidden;
+    position: static;
   }
 }
