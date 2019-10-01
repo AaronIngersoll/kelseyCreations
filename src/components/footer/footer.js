@@ -40,9 +40,9 @@ export default class Footer extends Component {
         </div>
 
         <div className="social-media-icons-wrapper">
-          <a href="https://www.instagram.com/kelseycreations/">
+          {/* <a href="https://www.instagram.com/kelseycreations/">
             <i className="fab fa-instagram" />
-          </a>
+          </a> */}
           <a href="https://www.youtube.com/channel/UCoDRD6ug-7jVrtn486E4BQw/featured">
             <i className="fab fa-youtube" />
           </a>
