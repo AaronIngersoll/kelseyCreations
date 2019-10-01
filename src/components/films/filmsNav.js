@@ -59,7 +59,12 @@ export default class VidGrid extends Component {
               cols={2}
               style={{ height: "auto", alignContent: "center" }}
             >
-              <ListSubheader component="div">VIDEOS</ListSubheader>
+              <ListSubheader
+                component="div"
+                style={{ color: "#fcfcfc", textDecoration: "underline" }}
+              >
+                VIDEOS
+              </ListSubheader>
             </GridListTile>
             {console.log(this.state.videos)}
             {this.state.videos.map(video => (
@@ -70,14 +75,15 @@ export default class VidGrid extends Component {
                 />
                 <GridListTileBar
                   title={video.snippet.title}
-                  subtitle={<span>type: {video.snippet.title}</span>}
+                  // subtitle={<span>type: {video.snippet.title}</span>}
                   actionIcon={
                     <Link
                       to={`/view_video/${video.id.videoId}`}
                       className="icon"
+                      style={{ textDecoration: "none" }}
                     >
-                      <IconButton>
-                        <InfoIcon />
+                      <IconButton style={{ color: "#f19cbb" }}>
+                        <i class="fas fa-arrow-circle-right"></i>
                       </IconButton>
                     </Link>
                   }
