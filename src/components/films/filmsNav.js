@@ -4,7 +4,6 @@ import GridListTile from "@material-ui/core/GridListTile";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
 import ListSubheader from "@material-ui/core/ListSubheader";
 import IconButton from "@material-ui/core/IconButton";
-import InfoIcon from "@material-ui/icons/Info";
 import { Link } from "react-router-dom";
 
 export default class VidGrid extends Component {
@@ -75,7 +74,7 @@ export default class VidGrid extends Component {
                 />
                 <GridListTileBar
                   title={video.snippet.title}
-                  // subtitle={<span>type: {video.snippet.title}</span>}
+                  subtitle={<span>type: {video.snippet.title}</span>}
                   actionIcon={
                     <Link
                       to={`/view_video/${video.id.videoId}`}
